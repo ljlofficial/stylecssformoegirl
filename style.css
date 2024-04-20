@@ -10,7 +10,7 @@
  * @author:LJL
  * @date 2024.?.?
  * @git repo URL:https://github.com/ljlofficial/stylecssformoegirl.git
- 
+ * @git commit:
  */
 
 /* 越改越窄的基础分块容器
@@ -54,7 +54,6 @@
 .LJL-wrapper .heimu a {
     color: #000000;
 }
-/*修改完成，小幅度优化*/
 /* 目录
 ---------------------------------------- */
 .LJL-toc {
@@ -64,9 +63,9 @@
     margin-bottom: 1em;
     padding: .5em;
     font-size: inherit;
-    border: 1px solid #b5b0b0
+    border: 1px solid #b5b0b0;
     border-radius: .6em;
-    box-shadow: 1px 2px 5px #d6d5d5
+    box-shadow: 1px 2px 5px #d6d5d5;
     background: #b5b0b0 !important;
 }
 .LJL-toc .toc-head {
@@ -76,7 +75,8 @@
     font-weight: 700;
     -webkit-user-select: none;
     -moz-user-select: none;
-    -ms-user-select: none;
+    /*-ms-user-select: none;*/
+    /*"Property is norstandard.Avoid use it"*/
     user-select: none;
 }
 .LJL-toc .mw-collapsible-toggle {
@@ -117,7 +117,6 @@
         width: 100%
     }
 }
-/*修改完成，更改了背景颜色为#b5b0b0*/
 
 /* 信息栏
 ---------------------------------------- */
@@ -185,7 +184,6 @@
 .LJL-info .score-type {
     font-weight: 700;
 }
-/*修改完成，更改了背景颜色为#b5b0b0*/
 /* 序言
 ---------------------------------------- */
 .LJL-cquote {
@@ -213,7 +211,6 @@
     line-height: 1.6em;
     text-align: center;
 }
-/*修改完成，统一回滚字体*/
 /* 用户框
 ---------------------------------------- */
 .LJL-userbox {
@@ -237,7 +234,8 @@
     user-select: none;
     -webkit-user-select: none;
     -moz-user-select: none;
-    -ms-user-select: none;
+    /*-ms-user-select: none;*/
+    /*"Property is norstandard.Avoid use it"*/
 }
 .LJL-userbox th>div {
     display: flex;
@@ -265,7 +263,6 @@
 .LJL-userbox:hover {
     transform: scale(1.05);
 }
-/*修改完成，更改了背景颜色为#b5b0b0*/
 /* 贡献
 ---------------------------------------- */
 .LJL-contribution {
@@ -291,7 +288,8 @@
     flex: 1 1 16em;
     margin: 0;
     padding: 0.6em !important;
-    font-size: 114%;
+    font-size: 120%;
+    /*年轻人觉得太小了，改大点（）*/
     font-weight: 700;
     border-radius: .6em;
     transition-duration: .5s;
@@ -312,7 +310,8 @@
     color: #889;
     -webkit-user-select: none;
     -moz-user-select: none;
-    -ms-user-select: none;
+    /*-ms-user-select: none;*/
+    /*"Property is norstandard.Avoid use it"*/
     user-select: none;
 }
 .LJL-sub::after,
@@ -331,7 +330,6 @@
         max-height: initial;
     }
 }
-/*修改完成，更改了背景颜色为#b5b0b0，“改“字改为红色字体*/
 /* 按钮
 ---------------------------------------- */
 .LJL-button {
@@ -353,7 +351,7 @@
             rgba(255, 255, 255, 0) 36%,
             rgba(255, 255, 255, 0) 64%,
             rgba(255, 255, 255, 0.6) 77%,
-            rgba(255, 255, 255, 1) 100%);
+            rgba(255, 255, 255, 1) 100%);     /*这部分暂时保留*/
 }
 .LJL-buttontext:hover {
     transform: translate(0, -0.2em);
@@ -382,6 +380,7 @@
 .LJL-signboard>ol>li span[style^="color:#000;font-size:1em;line-height:1.4;background:#F5F6F7;"] {
     background-color: rgba(245, 246, 247, .5) !important;
 }
+/*这里可能有点颜色bug，需要测试*/
 /* 歌单
 ---------------------------------------- */
 .LJL-musiclist {
@@ -420,9 +419,11 @@
     overflow: hidden;
     clear: none;
 }
+/*
 .LJL-musicbox:hover {
     transform: scale(1.04);
-}
+}*/
+/*不用破折号了，暂时注释掉这部分*/
 .LJL-musicbox .LJL-comment {
     text-align: right;
 }
@@ -452,7 +453,8 @@
     box-shadow: 2px 2px 5px rgba(127, 127, 127, 0.5);
     -webkit-user-select: none;
     -moz-user-select: none;
-    -ms-user-select: none;
+    /*-ms-user-select: none;*/
+    /*"Property is norstandard.Avoid use it"*/
     user-select: none;
     transition: transform .7s cubic-bezier(0.175, 0.885, 0.32, 1.25);
 }
@@ -491,6 +493,7 @@
     opacity: 0;
     z-index: 4;
 }
+/*这部分代码还是别动了，毕竟已经调整好了（）*/
 /* 标题
 ---------------------------------------- */
 h2.LJL-title {
@@ -509,22 +512,25 @@ h2.LJL-title .mw-headline {
     cursor: default;
     color: #FFFFFF;
     text-shadow:
-        -1px -1px 0 #66d,
-        -1px 0 0 #66d,
-        -1px 1px 0 #66d,
-        1px -1px 0 #66d,
-        1px 0 0 #66d,
-        1px 1px 0 #66d,
-        0 1px 0 #66d,
-        0 -1px 0 #66d,
+        -1px -1px 0 rgb(0, 0, 255),
+        -1px 0 0 rgb(0, 0, 255),
+        -1px 1px 0 rgb(0, 0, 255),
+        1px -1px 0 rgb(0, 0, 255),
+        1px 0 0 rgb(0, 0, 255),
+        1px 1px 0 rgb(0, 0, 255),
+        0 1px 0 rgb(0, 0, 255),
+        0 -1px 0 rgb(0, 0, 255),
         0 2px 2px rgba(0, 0, 0, 0.6);
+        /*我还是更喜欢blue（）*/
 }
 h2.LJL-title .mw-headline::before {
     content: "\00a0";
     display: inline-block;
     width: 1.2em;
-    background: url("") center/contain no-repeat;
-    filter: drop-shadow(0 1px 2px rgba(228, 87, 145, .5));
+    background: url("https://img.moegirl.org.cn/common/common/f/f5/Titleicon.png") center/contain no-repeat;
+    /*更改为由GoogleFonts提供的自定义icon*/
+    filter: none
+    /*更改了icon之后不知道是否要加阴影，先不加先（*/
 }
 h2.LJL-title .mw-editsection {
     float: right;
@@ -552,7 +558,7 @@ h2.LJL-title::after {
 
 
 
-
+/*LICENSE*/
 /*GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 
