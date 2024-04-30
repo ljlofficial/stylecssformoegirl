@@ -11,3 +11,7 @@
 7.标题：<h2>标题前图标更改
 8.注释：增加了commit用于追踪已经使用到生产场景的CSS commit
 9.仓库：增加Changelog.txt，便于记录更改内容
+
+
+2024/4/30
+1.LICENSE：删除css文件包含的LICENSE。
