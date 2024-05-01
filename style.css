@@ -361,7 +361,7 @@
 .LJL-signboard {
     overflow: auto;
     max-height: 26.5em;
-    border: 3px solid #BBF9FF;
+    border: 3px solid rgb(0, 0, 255);
     border-radius: .6em;
 }
 .LJL-signboard>ol {
@@ -380,7 +380,7 @@
 .LJL-signboard>ol>li span[style^="color:#000;font-size:1em;line-height:1.4;background:#F5F6F7;"] {
     background-color: rgba(245, 246, 247, .5) !important;
 }
-/*这里可能有点颜色bug，需要测试*/
+/*修改了边框颜色*/
 /* 歌单
 ---------------------------------------- */
 .LJL-musiclist {
