@@ -8,7 +8,7 @@
  * 本css由于为了能帮助改变LJL用户界面，特在此引用该用户的css进行部分修改后重新发布
  * 源作者[[User:BearBin]]没有选择分发协议，故在此重新更改分发时选择使用CC BY-NC-SA 3.0 CN DEED（署名-非商业性使用-相同方式共享 3.0 中国大陆）协议，重新更改时请保留该协议。
  * @author:LJL
- * @date 2024.6.20
+ * @date 2024.8.30
  * @github repo URL:https://github.com/ljlofficial/stylecssformoegirl.git
  * @gitee repo URL:https://gitee.com/ljlorljl/stylecssformoegirl.git
  * @git commit: 0fc69c610530f1663ac72d064b9ef0ae6cc00422
@@ -187,31 +187,7 @@
 }
 /* 序言
 ---------------------------------------- */
-.LJL-cquote {
-    display: flex;
-    justify-content: center;
-    box-sizing: border-box;
-    min-width: 40%;
-}
-.LJL-cquote .cquote-left {
-    align-self: flex-start;
-}
-.LJL-cquote .cquote-right {
-    align-self: flex-end;
-}
-.LJL-cquote .cquote-left,
-.LJL-cquote .cquote-right {
-    line-height: 1.2em;
-    font-size: 2.2em;
-    font-weight: 700;
-    font-family: "Noto Sans", "Noto Sans CJK SC", "Source Han Sans SC", "Source Han Sans CN", 思源黑体, -apple-system, "Microsoft YaHei", "Wenquanyi Micro Hei", "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
-}
-.LJL-cquote .cquote-content {
-    padding: .6em 1em;
-    min-height: 1.6em;
-    line-height: 1.6em;
-    text-align: center;
-}
+/*实际使用中不需要这部分，已经删除*/
 /* 用户框
 ---------------------------------------- */
 .LJL-userbox {
@@ -289,7 +265,7 @@
     flex: 1 1 16em;
     margin: 0;
     padding: 0.6em !important;
-    font-size: 110%;
+    font-size: 105%;
     /*年轻人觉得太小了，改大点（）*/
     font-weight: 700;
     border-radius: .6em;
@@ -420,11 +396,11 @@
     overflow: hidden;
     clear: none;
 }
-/*
+
 .LJL-musicbox:hover {
     transform: scale(1.04);
-}*/
-/*不用破折号了，暂时注释掉这部分*/
+}
+
 .LJL-musicbox .LJL-comment {
     text-align: right;
 }
@@ -528,10 +504,8 @@ h2.LJL-title .mw-headline::before {
     content: "\00a0";
     display: inline-block;
     width: 1.2em;
-    background: url("https://img.moegirl.org.cn/common/common/f/f5/Titleicon.png") center/contain no-repeat;
-    /*更改为由GoogleFonts提供的自定义icon*/
     filter: none
-    /*更改了icon之后不知道是否要加阴影，先不加先（*/
+    /*icon不起作用，删了（）*/
 }
 h2.LJL-title .mw-editsection {
     float: right;
