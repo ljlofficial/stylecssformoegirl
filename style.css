@@ -8,10 +8,10 @@
  * 本css由于为了能帮助改变LJL用户界面，特在此引用该用户的css进行部分修改后重新发布
  * 源作者[[User:BearBin]]没有选择分发协议，故在此重新更改分发时选择使用CC BY-NC-SA 3.0 CN DEED（署名-非商业性使用-相同方式共享 3.0 中国大陆）协议，重新更改时请保留该协议。
  * @author:LJL
- * @date 2024.8.30
+ * @date 2024.12.20
  * @github repo URL:https://github.com/ljlofficial/stylecssformoegirl.git
  * @gitee repo URL:https://gitee.com/ljlorljl/stylecssformoegirl.git
- * @git commit: 0fc69c610530f1663ac72d064b9ef0ae6cc00422
+ * @git commit:
  */
 
 /* 越改越窄的基础分块容器
@@ -76,8 +76,6 @@
     font-weight: 700;
     -webkit-user-select: none;
     -moz-user-select: none;
-    /*-ms-user-select: none;*/
-    /*"Property is norstandard.Avoid use it"*/
     user-select: none;
 }
 .LJL-toc .mw-collapsible-toggle {
@@ -287,8 +285,6 @@
     color: #889;
     -webkit-user-select: none;
     -moz-user-select: none;
-    /*-ms-user-select: none;*/
-    /*"Property is norstandard.Avoid use it"*/
     user-select: none;
 }
 .LJL-sub::after,
@@ -430,8 +426,6 @@
     box-shadow: 2px 2px 5px rgba(127, 127, 127, 0.5);
     -webkit-user-select: none;
     -moz-user-select: none;
-    /*-ms-user-select: none;*/
-    /*"Property is norstandard.Avoid use it"*/
     user-select: none;
     transition: transform .7s cubic-bezier(0.175, 0.885, 0.32, 1.25);
 }
