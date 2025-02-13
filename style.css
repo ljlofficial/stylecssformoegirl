@@ -8,10 +8,10 @@
  * 本css由于为了能帮助改变LJL用户界面，特在此引用该用户的css进行部分修改后重新发布
  * 源作者[[User:BearBin]]没有选择分发协议，故在此重新更改分发时选择使用CC BY-NC-SA 3.0 CN DEED（署名-非商业性使用-相同方式共享 3.0 中国大陆）协议，重新更改时请保留该协议。
  * @author:LJL
- * @date 2024.12.20
+ * @date 2025.02.13
  * @github repo URL:https://github.com/ljlofficial/stylecssformoegirl.git
  * @gitee repo URL:https://gitee.com/ljlorljl/stylecssformoegirl.git
- * @git commit:b871d407f7bf2031eb332107012d90334bd66f41
+ * @git commit:
  */
 
 /* 越改越窄的基础分块容器
@@ -209,8 +209,6 @@
     user-select: none;
     -webkit-user-select: none;
     -moz-user-select: none;
-    /*-ms-user-select: none;*/
-    /*"Property is norstandard.Avoid use it"*/
 }
 .LJL-userbox th>div {
     display: flex;
