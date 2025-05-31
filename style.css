@@ -236,6 +236,12 @@
 .LJL-userbox:hover {
     transform: scale(1.05);
 }
+.LJL-hall {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    column-gap: .6em;
+}
 /* 贡献
 ---------------------------------------- */
 .LJL-contribution {
