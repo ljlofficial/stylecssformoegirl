@@ -8,7 +8,7 @@
  * 本css由于为了能帮助改变LJL用户界面，特在此引用该用户的css进行部分修改后重新发布
  * 源作者[[User:BearBin]]没有选择分发协议，故在此重新更改分发时选择使用CC BY-NC-SA 3.0 CN DEED（署名-非商业性使用-相同方式共享 3.0 中国大陆）协议，重新更改时请保留该协议。
  * @author:LJL
- * @date 2025.02.13
+ * @date 2025.05.31
  * @github repo URL:https://github.com/ljlofficial/stylecssformoegirl.git
  * @gitee repo URL:https://gitee.com/ljlorljl/stylecssformoegirl.git
  * @git commit:
@@ -400,69 +400,7 @@
 }
 /* 展廊
 ---------------------------------------- */
-.LJL-hall {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    column-gap: .6em;
-}
-.LJL-showcase {
-    position: relative;
-    display: inline-block;
-    overflow: hidden;
-    box-sizing: border-box;
-    width: 160px;
-    margin-bottom: .6em;
-    background: linear-gradient(125deg,
-            rgba(255, 255, 255, 1) 0,
-            rgba(255, 255, 255, 0.6) 23%,
-            rgba(255, 255, 255, 0) 36%,
-            rgba(255, 255, 255, 0) 64%,
-            rgba(255, 255, 255, 0.6) 77%,
-            rgba(255, 255, 255, 1) 100%);
-    border-radius: 8px;
-    box-shadow: 2px 2px 5px rgba(127, 127, 127, 0.5);
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-    transition: transform .7s cubic-bezier(0.175, 0.885, 0.32, 1.25);
-}
-.LJL-showcase:hover {
-    transform: translate(0, -0.35em);
-}
-.LJL-showcase .showcase-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 64px;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-.LJL-showcase .showcase-content img {
-    width: 100%;
-    height: auto;
-}
-.LJL-showcase .content-text {
-    font-size: 1.1em;
-    font-weight: 700;
-}
-.LJL-showcase .showcase-summary {
-    margin: .2em .7em .5em;
-    line-height: 1.5em;
-}
-.LJL-showcase a {
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    opacity: 0;
-    z-index: 4;
-}
-/*这部分代码还是别动了，毕竟已经调整好了（）*/
+/*实际使用中不需要这部分，已经删除*/
 /* 标题
 ---------------------------------------- */
 h2.LJL-title {
