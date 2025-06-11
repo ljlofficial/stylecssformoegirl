@@ -8,7 +8,7 @@
  * 本css由于为了能帮助改变LJL用户界面，特在此引用该用户的css进行部分修改后重新发布
  * 源作者[[User:BearBin]]没有选择分发协议，故在此重新更改分发时选择使用CC BY-NC-SA 3.0 CN DEED（署名-非商业性使用-相同方式共享 3.0 中国大陆）协议，重新更改时请保留该协议。
  * @author:LJL
- * @date 2025.06.06
+ * @date 2025.06.11
  * @github repo URL:https://github.com/ljlofficial/stylecssformoegirl.git
  * @git commit:
  */
@@ -181,54 +181,7 @@
 /*实际使用中不需要这部分，已经删除*/
 /* 用户框
 ---------------------------------------- */
-.LJL-userbox {
-    display: inline-block;
-    margin: 1px 6px 2px 0;
-    box-shadow: 2px 2px 5px #b5b0b0;
-    transition: all .3s ease-out !important;
-    border-collapse: collapse;
-    border-spacing: 0;
-    height: 60px;
-}
-.LJL-userbox th {
-    box-sizing: border-box;
-    height: 60px;
-    padding: 0;
-    overflow: hidden;
-    color: inherit;
-    border-right: 1px solid #b5b0b0;
-    background-color: #b5b0b0;
-    vertical-align: middle;
-    user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-}
-.LJL-userbox th>div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 60px;
-    height: 60px;
-    overflow: hidden;
-    line-height: 1.2;
-}
-.LJL-userbox th>div>img,
-.LJL-userbox th>div>a>img{
-    max-width: 60px;
-    max-height: 60px;
-}
-.LJL-userbox td {
-    box-sizing: border-box;
-    width: 200px;
-    padding: 0 0.3em;
-    text-shadow: 1px 1px 3px #b5b0b0;
-    background: #b5b0b0;
-    vertical-align: middle;
-    line-height: 1.2em;
-}
-.LJL-userbox:hover {
-    transform: scale(1.05);
-}
+
 .LJL-hall {
     display: flex;
     flex-flow: row wrap;
@@ -353,13 +306,6 @@
 /*修改了边框颜色*/
 /* 歌单
 ---------------------------------------- */
-.LJL-musiclist {
-    display: flex;
-    flex-flow: row wrap;
-    margin: auto;
-    justify-content: space-around;
-    column-gap: .2em;
-}
 .LJL-musicbox {
     display: inline-block;
     flex: 0 1 330px;
